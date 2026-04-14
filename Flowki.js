@@ -424,6 +424,7 @@ window.addEventListener("load", () => {
     // Create panel container
     const container = document.createElement("div");
     container.id = "flowki-panel";
+    container.setAttribute("data-lenis-prevent", "");
     container.style.cssText = `
       position: fixed;
       bottom: 0;
