@@ -434,7 +434,8 @@ window.addEventListener("load", () => {
       color: white;
       font-family: -apple-system, BlinkMacSystemFont, sans-serif;
       font-size: 14px;
-      z-index: 9999;
+      z-index: 2147483655 !important;
+      cursor: auto !important;
       box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
       max-height: 60vh;
       overflow-y: auto;
