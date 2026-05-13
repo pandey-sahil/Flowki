@@ -32,7 +32,7 @@ window.addEventListener("load", () => {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    z-index: 9998;
+    z-index: 2147483649;
     box-shadow: 0 4px 20px rgba(0,0,0,0.2);
     display: flex;
     align-items: center;
